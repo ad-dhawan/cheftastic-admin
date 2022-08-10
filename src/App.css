@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.k-drawer-container {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+.k-drawer-item {
+  user-select: none;
+}
+.k-icon {
+  font-size: 20px;
+}
+.custom-toolbar {
+  width: 100%;
+  background-color: #f6f6f6;
+  line-height: 10px;
+  border-bottom: inset;
+  border-bottom-width: 1px;
+  padding: 3px 8px;
+  color: #656565;
+}
+.mail-box{
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 17px;
+}
+.page ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.page li {
+  font-size: 1.2em;
+  background: 0 0;
+  border-radius: 0;
+  border-width: 0 0 1px;
+  border-color: rgba(33, 37, 41, 0.125);
+  border-style: solid;
+  line-height: 1.5em;
+  padding: 1.09em .84em 1.23em .84em;
+}
+.page li:last-child {
+  border: 0;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
